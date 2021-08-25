@@ -655,7 +655,7 @@ body._lock {
   margin-bottom: 20vh;
 }
 
-.intro__container .swiper-pagination {
+.intro__container .intro__pagination.swiper-pagination {
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -1055,6 +1055,7 @@ body._lock {
 }
 
 .comments__container {
+  position: relative;
   padding-top: 70px;
   padding-bottom: 70px;
 }

@@ -47,7 +47,7 @@ function onPlayerStateChange(event) {
 
 new Swiper('.intro__container', {
     pagination: {
-        el: '.swiper-pagination',
+        el: '.intro__pagination',
         clickable: true,
     },
     grabCursor: true,
@@ -201,7 +201,7 @@ document.addEventListener('keydown', function (e) {
 
 new Swiper('.comments__slider', {
     pagination: {
-        el: '.swiper-pagination',
+        el: '.comments__pagination',
         clickable: true,
         dynamicBullets: true,
         renderBullet: function (index, className) {
