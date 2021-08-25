@@ -1107,6 +1107,16 @@ body._lock {
   display: none;
 }
 
+.comments__pagination.swiper-pagination {
+  bottom: 70px;
+}
+
+.comments__button-prev.swiper-button-prev,
+.comments__button-next.swiper-button-next {
+  position: absolute;
+  bottom: 70px;
+}
+
 .comments__container .swiper-pagination-bullet {
   width: 72px;
   height: 72px;

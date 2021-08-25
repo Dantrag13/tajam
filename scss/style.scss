@@ -509,10 +509,12 @@ body._lock {
     background-blend-mode: multiply, normal;
     opacity: 0.851;
 }
-.comments__container {
+.comments__container {    
     position: relative;
     padding-top: 70px;
     padding-bottom: 70px;
+}
+.comments__slider {    
 }
 .comments__slider-wrapper {
     margin-bottom: 125px;
@@ -554,6 +556,14 @@ body._lock {
 }
 .comments__photos {
     display: none;
+}
+.comments__pagination.swiper-pagination {
+    bottom: 70px;
+}
+.comments__button-prev.swiper-button-prev,
+.comments__button-next.swiper-button-next {
+    position: absolute;
+    bottom: 70px;
 }
 .comments__container .swiper-pagination-bullet {
     width: 72px;
