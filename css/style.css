@@ -1114,8 +1114,15 @@ body._lock {
   display: none;
 }
 
-.comments__pagination.swiper-pagination {
-  bottom: 70px;
+.comments__bullets {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+.comments__bullets .comments__pagination {
+  top: auto;
+  bottom: auto;
 }
 
 .comments__button-prev.swiper-button-prev,
@@ -1148,8 +1155,7 @@ body._lock {
 
 .comments__container .comments__button-next.swiper-button-next,
 .comments__container .comments__button-prev.swiper-button-prev {
-  top: 89%;
-  scale: 0.8;
+  transform: scale(0.8);
   color: #9f9f9f;
 }
 
