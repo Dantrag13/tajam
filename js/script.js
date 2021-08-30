@@ -67,9 +67,6 @@ const popupLinks = document.querySelectorAll('.popup-link');
 const body = document.querySelector('body');
 const lockPadding = document.querySelectorAll('.lock-padding');
 const headerHiding = document.querySelector('header');
-console.log('popupLinks', popupLinks);
-console.log('lockPadding', lockPadding);
-
 
 let unlock = true;
 
@@ -131,7 +128,6 @@ function popupClose(popupActive, doUnlock = true) {
 
 function bodyLock() {
     const lockPaddingValue = window.innerWidth - document.querySelector('body').offsetWidth + 'px';
-    console.log('lockPaddingValue', lockPaddingValue);
 
     if (lockPadding > 0) {
         for (let i = 0; i < lockPadding.length; i++) {
@@ -294,7 +290,6 @@ if (animItems.length > 0) {
         for (let i = 0; i < animItems.length; i++) {
             const animItem = animItems[i];
             let animItemHeight = animItem.offsetHeight;
-            console.log('animItemHeight', animItemHeight);
             const animItemOffset = offset(animItem).top;
             const animStart = 4;
 
